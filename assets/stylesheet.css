@@ -185,6 +185,10 @@ header {
   
 }
 
+.textfield{
+  width: 500px;
+  height: 200px;}
+  
 footer {
   background-color: lightseagreen;
   color: black;
