@@ -195,7 +195,7 @@ header {
 
 .contact_link .button {
     margin: 5px;
-    width: 5%;
+    max-width: 100px;
 }
 
 .contact_link .button img {
