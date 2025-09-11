@@ -19,27 +19,21 @@ main.page1{
         'picture picture video video';
 }
 main.page1>div {
-    padding: 20px;
-}
+    padding: 20px;}
 
 .item1 {
     grid-area: main_content;
-    text-align: left;
-}
+    text-align: left;}
 
 .item2 {
-    grid-area: photo;
-}
+    grid-area: photo;}
 
 .item3 {
     grid-area: picture;
-    place-self: center;
-
-}
+    place-self: center;}
 
 .item4 {
-    grid-area: video;
-}
+    grid-area: video;}
 
 
 @media (max-width: 1500px) {
@@ -48,8 +42,7 @@ main.page1>div {
             'main_content photo'
             'main_content video'
             'picture picture';
-    }
-}
+    }}
 
 
 @media (max-width: 900px) {
@@ -59,8 +52,8 @@ main.page1>div {
             'main_content'
             'picture'
             'video';
-    }
-}
+        text-align: left;
+    }}
 
 main.page2{
     display: grid;
