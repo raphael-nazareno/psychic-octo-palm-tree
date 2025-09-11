@@ -81,14 +81,19 @@ main.page2>div {
 main.page3{
     display: grid;
     grid-template-areas:
-        'main_content main_content'}
+        'sidebar contact_info'; }
 
 main.page3>div {
     padding: 20px;}
 
-.item1 {
-    grid-area: main_content;
+.sidebar {
+    grid-area: sidebar;
     text-align: left;}
+
+.contact_info {
+    grid-area: contact_info;
+    text-align: left;
+}
 
 
 
