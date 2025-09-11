@@ -69,7 +69,7 @@ main.page2{
         'main_content main_content'
 }
 
-main.page1>div {
+main.page2>div {
     padding: 20px;
 }
 
@@ -77,6 +77,19 @@ main.page1>div {
     grid-area: main_content;
     text-align: left;
 }
+
+main.page3{
+    display: grid;
+    grid-template-areas:
+        'main_content main_content'}
+
+main.page3>div {
+    padding: 20px;}
+
+.item1 {
+    grid-area: main_content;
+    text-align: left;}
+
 
 
 .video {
