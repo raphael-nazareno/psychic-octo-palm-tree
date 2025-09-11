@@ -61,10 +61,7 @@ main.page1>div {
             'picture'
             'video';
     }
-
-    main.page1>div {
-        text-align: center;
-    }}
+}
 
 main.page2{
     display: grid;
