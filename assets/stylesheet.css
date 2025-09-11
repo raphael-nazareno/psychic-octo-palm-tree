@@ -81,7 +81,6 @@ main.page1>div {
 
 .video {
     display: flex;
-    justify-content: center;
     max-width: 600px;
 }
 
