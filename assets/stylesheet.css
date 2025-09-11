@@ -188,17 +188,17 @@ header {
   width: 500px;
   height: 200px;}
 
-.contact_link {
+.contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;}
 
-.contact_link .button {
+.contact-button {
     margin: 5px;
     max-width: 100px;
 }
 
-.contact_link .button img {
+.contact-button img {
     width: 100%;
     height: auto;}
 
