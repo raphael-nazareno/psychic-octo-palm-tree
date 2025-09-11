@@ -93,7 +93,7 @@ main.page3>div {
 
 
 .video {
-    display: flex;
+    width: 100%;
 }
 
 .video iframe {
@@ -188,7 +188,7 @@ header {
 .textfield{
   width: 500px;
   height: 200px;}
-  
+
 footer {
   background-color: lightseagreen;
   color: black;
