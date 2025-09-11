@@ -34,7 +34,7 @@ main.page1>div {
 
 .item4 {
     grid-area: video;
-    place-items: center;}
+    place-self: center;}
 
 
 
