@@ -33,7 +33,9 @@ main.page1>div {
     place-self: center;}
 
 .item4 {
-    grid-area: video;}
+    grid-area: video;
+    place-items: center;}
+
 
 
 @media (max-width: 1500px) {
