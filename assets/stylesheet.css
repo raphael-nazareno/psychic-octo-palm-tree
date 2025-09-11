@@ -90,6 +90,7 @@ main.page1>div {
 
 div.video iframe {
     aspect-ratio: 16/9;
+    width: 100%;
     border: 2px solid lightseagreen;
 }
 
