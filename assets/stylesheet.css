@@ -39,7 +39,6 @@ main.page1>div {
 
 .item4 {
     grid-area: video;
-    place-self: center;
 }
 
 
@@ -94,6 +93,7 @@ main.page3>div {
     grid-area: contact_info;
     text-align: left;
 }
+
 
 
 
