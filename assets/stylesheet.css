@@ -94,11 +94,6 @@ div.video iframe {
     border: 2px solid lightseagreen;
 }
 
-div.video div.desc {
-    padding: 10px;
-    text-align: justify;
-}
-
 .gallary {
   display: flex;
   flex-direction: row;
