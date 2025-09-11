@@ -56,17 +56,28 @@ main.page1>div {
 main.page2{
     display: grid;
     grid-template-areas:
-        'main_content main_content'
-}
+        'projects degree degree'; }
+
 
 main.page2>div {
     padding: 20px;
 }
 
-.item1 {
-    grid-area: main_content;
-    text-align: left;
-}
+.projects {
+    grid-area: projects;
+    text-align: left;}
+
+.degree {
+    grid-area: degree;
+    text-align: left;}
+
+@media (max-width: 1500px) {
+    main.page2 {
+        grid-template-areas: 
+            'projects'
+            'degree';
+        text-align: left;
+    }}
 
 main.page3{
     min-height: 68.25vh;
