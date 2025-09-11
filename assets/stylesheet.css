@@ -72,7 +72,7 @@ main.page3{
     min-height: 68.25vh;
     display: grid;
     grid-template-areas:
-        'sidebar contact_info'; }
+        'sidebar  contact_info contact_info'; }
 
 main.page3>div {
     padding: 20px;}
@@ -201,7 +201,9 @@ header {
 
 .contact-button {
    margin: 5px;
-   width: 20%;
+   flex: 1 1 120px; /* Grow, shrink, base width */
+   max-width: 150px; /* Prevents them from getting too big */
+   box-sizing: border-box;
 }
 
 .contact-button img {
