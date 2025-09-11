@@ -144,19 +144,19 @@ header {
     border: 2px solid lightseagreen;
 }
 
-.gallary {
+.gallery {
   display: flex;
   flex-direction: row;
   justify-content: flex-start
   
 }
 
-.gallary-item {
+.gallery-item {
     margin: 5px;
     width: 25%;
 }
 
-.gallary-item img {
+.gallery-item img {
     width: 100%;
     height: auto;
     border: 2px solid lightseagreen;
