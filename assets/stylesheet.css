@@ -201,9 +201,7 @@ header {
 
 .contact-button {
    margin: 5px;
-   flex: 1 1 120px; /* Grow, shrink, base width */
-   max-width: 150px; /* Prevents them from getting too big */
-   box-sizing: border-box;
+   width: 20%;
 }
 
 .contact-button img {
