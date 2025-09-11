@@ -34,7 +34,7 @@ main.page1>div {
 
 .item4 {
     grid-area: video;
-    place-self: center;}
+    text-align: center;}
 
 @media (max-width: 1500px) {
     main.page1 {
@@ -138,8 +138,6 @@ header {
 }
 
 .video iframe {
-    display: block;
-    margin: 0 auto;
     aspect-ratio: 16/9;
     width: 100%;
     height: auto;
@@ -195,7 +193,7 @@ header {
     justify-content: flex-start;}
 
 .contact-button {
-    margin: 5px;
+   margin: 5px;
    flex: 1 1 80px; 
    min-width: 60px;
    max-width: 150px;
