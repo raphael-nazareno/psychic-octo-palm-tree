@@ -201,7 +201,6 @@ header {
 .contact-button {
     flex: 1 1 10px;
     margin: 5px;
-    width: 100%;
 }
 
 .contact-button img {
