@@ -34,10 +34,7 @@ main.page1>div {
 
 .item4 {
     grid-area: video;
-    place-self: center;
-}
-
-
+    place-self: center;}
 
 @media (max-width: 1500px) {
     main.page1 {
@@ -199,12 +196,11 @@ header {
     justify-content: flex-start;}
 
 .contact-button {
-    flex: 1 1 10px;
+    flex: 1 1 5px;
     margin: 5px;
 }
 
 .contact-button img {
-    width: 100%;
     height: auto;}
 
 footer {
