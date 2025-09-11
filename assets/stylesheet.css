@@ -193,7 +193,7 @@ header {
     justify-content: flex-start;}
 
 .contact-button {
-   margin: 5px;
+   margin: 20%;
    flex: 1 1 80px; 
    min-width: 60px;
    max-width: 150px;
