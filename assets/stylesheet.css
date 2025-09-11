@@ -97,6 +97,49 @@ main.page3>div {
 
 
 
+header {
+  color: black;
+  background-color: lightseagreen;
+  padding: 10px;}
+  
+.title {
+  padding-left: 20px;
+  text-align: left;
+}
+.rmitlogo {
+  width: 150px;
+  height: auto;
+  float: right;
+  padding-top: 18px;
+  padding-right: 20px;}
+
+.navbar{
+    background-color: teal;  
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+.navbar li {
+    float: left;
+    width: 33.33%;}
+    
+.navbar li a {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+.navbar li a:hover {
+    background-color: rgb(192, 235, 233)}
+
+@media screen and (max-width: 900px) {
+  .navbar li {float: none; width: 100%;}
+  
+}
+
 .video {
     width: 100%;
 }
@@ -145,49 +188,6 @@ main.page3>div {
     background-color: black;
     opacity: 0.7;
     padding: 5px;
-}
-
-header {
-  color: black;
-  background-color: lightseagreen;
-  padding: 10px;}
-  
-.title {
-  padding-left: 20px;
-  text-align: left;
-}
-.rmitlogo {
-  width: 150px;
-  height: auto;
-  float: right;
-  padding-top: 18px;
-  padding-right: 20px;}
-
-.navbar{
-    background-color: teal;  
-}
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    }
-.navbar li {
-    float: left;
-    width: 33.33%;}
-    
-.navbar li a {
-    display: block; 
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;}
-.navbar li a:hover {
-    background-color: rgb(192, 235, 233)}
-
-@media screen and (max-width: 900px) {
-  .navbar li {float: none; width: 100%;}
-  
 }
 
 .textfield{
