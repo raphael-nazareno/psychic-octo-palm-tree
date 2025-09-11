@@ -134,6 +134,8 @@ header {
 }
 
 .video {
+    justify-self: center; /* Centers horizontally */
+    align-self: center;   /* Centers vertically */
     width: 100%;
 }
 
