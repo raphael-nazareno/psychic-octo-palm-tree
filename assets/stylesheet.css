@@ -51,8 +51,7 @@ main.page1>div {
             'main_content'
             'picture'
             'video';
-        text-align: left;
-    }}
+        text-align: left;}}
 
 main.page2{
     display: grid;
