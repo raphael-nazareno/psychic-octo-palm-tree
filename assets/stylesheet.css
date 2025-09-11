@@ -34,8 +34,7 @@ main.page1>div {
 
 .item4 {
     grid-area: video;
-    display: grid;
-    place-items: center;
+    place-self: center;
 }
 
 
@@ -138,6 +137,7 @@ header {
 }
 
 .video {
+    position: relative;
     margin: 0 auto;
     width: 100%;
     max-width: 500px;
