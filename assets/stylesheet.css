@@ -134,12 +134,12 @@ header {
 }
 
 .video {
-    justify-self: center; /* Centers horizontally */
-    align-self: center;   /* Centers vertically */
     width: 100%;
 }
 
 .video iframe {
+    display: block;
+    margin: 0 auto;
     aspect-ratio: 16/9;
     width: 100%;
     height: auto;
