@@ -187,6 +187,20 @@ header {
   width: 500px;
   height: 200px;}
 
+.contact_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;}
+
+.contact_link .button {
+    margin: 5px;
+    width: 5%;
+}
+
+.contact_link .button img {
+    width: 100%;
+    height: auto;}
+
 footer {
   background-color: lightseagreen;
   color: black;
