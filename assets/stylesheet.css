@@ -88,7 +88,7 @@ main.page1>div {
     max-width: 600px;
 }
 
-div.video iframe {
+.video iframe {
     aspect-ratio: 16/9;
     width: 100%;
     border: 2px solid lightseagreen;
