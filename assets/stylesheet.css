@@ -200,7 +200,7 @@ header {
     justify-content: flex-start;}
 
 .contact-button {
-   margin: 10px;
+   margin: 5px;
    width: 20%;
 }
 
@@ -210,7 +210,6 @@ header {
 
 @media (max-width: 900px) {
     .contact-button {
-        align-self: center;
         width: 40%;}
 }
 
