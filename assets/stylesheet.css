@@ -83,7 +83,7 @@ main.page3{
     min-height: 68.25vh;
     display: grid;
     grid-template-areas:
-        'sidebar  contact_info contact_info'; }
+        'contact_info contact_info sidebar'; }
 
 main.page3>div {
     padding: 20px;}
@@ -100,11 +100,10 @@ main.page3>div {
 @media (max-width: 1500px) {
     main.page3 {
         grid-template-areas: 
-            'contact_info'
-            'sidebar';
+            'sidebar'
+            'contact_info';
         text-align: left;
     }}
-
 
 header {
   color: black;
