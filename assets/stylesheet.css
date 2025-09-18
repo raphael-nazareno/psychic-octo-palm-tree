@@ -146,9 +146,7 @@ header {
   .navbar li {float: none; width: 100%;}}
 
 section {
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 5px;}
+    color:black;}
 
 .video {
     width: 100%;}
